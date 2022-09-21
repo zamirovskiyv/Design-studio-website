@@ -435,7 +435,7 @@
 }
 
 .rectalig_2_column_line h1 {
-    width: 175px;
+    width: 170px;
 }
 
 .rectangle__navigation {
@@ -677,6 +677,8 @@
         padding: 18px;
         text-align: center;
         color: #ffffff;
+        width: 375px;
+        text-align: center;
     }
 
     .rectangle_4__user {
@@ -707,6 +709,7 @@
         width: 340px;
         border: 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        margin-right: 0;
     }
 
     .rectangle_4__checkBox {
