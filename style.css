@@ -771,6 +771,32 @@
     background: url(img/rectangle_5_image_3.jpg);
 }
 
+@media (max-width: 768px) {
+    .rectangle_5__box_img1 {
+        height: 365px;
+        width: 340px;
+        border-radius: 0px;
+        margin: 15px;
+        background: url(img/rectangle_5_image_1.jpg);
+    }
+
+    .rectangle_5__box_img2 {
+        height: 365px;
+        width: 340px;
+        border-radius: 0px;
+        margin: 15px;
+        background: url(img/rectangle_5_image_2.jpg);
+    }
+
+    .rectangle_5__box_img3 {
+        height: 365px;
+        width: 340px;
+        border-radius: 0px;
+        margin: 15px;
+        background: url(img/rectangle_5_image_3.jpg);
+    }
+}
+
 .rectangle_boxes {
     display: flex;
     flex-direction: row;
@@ -861,6 +887,14 @@
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
+    }
+
+    .rectangle_5__box_txt {
+        height: 241px;
+        width: 270px;
+        border-radius: 0px;
+        background: #ffffff;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     }
 
     .rectangle_5__boxes_button {
