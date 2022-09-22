@@ -10,7 +10,6 @@
 .container {
     max-width: 1460px;
     margin: auto;
-    /* min-width: 1300px; */
 }
 
 .header {
@@ -185,6 +184,7 @@
     line-height: 15px;
     text-align: center;
     color: #ffffff;
+    margin-right: 20px;
 }
 
 .hero__button_2 {
@@ -234,6 +234,7 @@
         line-height: 15px;
         text-align: center;
         color: #ffffff;
+        margin-right: 0px;
     }
 
     .hero__button_2 {
@@ -409,6 +410,17 @@
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #e3b873;
+    text-decoration: underline;
+}
+
+.rectangle_2-navigation__item a:hover {
+    color: #e3b873;
+    text-decoration: underline;
 }
 
 .rectangle_2__box {
@@ -1154,6 +1166,20 @@
     /* display: none; */
 }
 
+.mobile_flip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 25px 7px 0px 7px; */
+    margin: 14px;
+    border-radius: 50px;
+    height: 36px;
+    width: 36px;
+    background: #e3b873;
+    box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+    transform: rotate(-180deg);
+}
+
 @media (max-width: 768px) {
     .foto {
         display: none;
@@ -1165,6 +1191,8 @@
         border-radius: 0px;
         margin-top: 24px;
         z-index: 1;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .mobile_header {
@@ -1217,7 +1245,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    font-family: "arial";
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
